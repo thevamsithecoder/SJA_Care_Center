@@ -1,0 +1,130 @@
+.heading {
+    font-size: 35px;
+    margin-top: 5px;
+}
+
+.font-color {
+    color: #D82C2E !important;
+}
+
+.button-style {
+    background-color: #D82C2E !important;
+    color: white;
+    border-radius: 30px !important;
+    border: none;
+    cursor: pointer;
+    height: 67px !important;
+    width: 253px !important;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.button-style:hover {
+    background-color: #C22A2A !important;
+}
+
+<<<<<<< HEAD
+/* Media Queries for Small Screens (sm and below) */
+@media (max-width: 639px) {
+    .heading {
+        font-size: 22px; /* Adjust font size for extra small screens */
+    }
+
+    .font-color {
+        font-size: 18px;
+    }
+
+    .button-style {
+        width: 90%;
+        height: 50px;
+    }
+
+    img {
+        width: 90%;
+        height: auto;
+    }
+
+    .text-base {
+        font-size: 14px;
+    }
+}
+
+/* Medium Screens (640px to 767px) */
+@media (max-width: 767px) {
+    .heading {
+        font-size: 24px;
+    }
+
+    .button-style {
+        width: 100%;
+        height: 55px;
+    }
+
+    img {
+        width: 85%;
+    }
+
+    .text-base {
+        font-size: 16px;
+    }
+}
+
+/* Large Screens (768px to 1023px) */
+@media (max-width: 1023px) {
+=======
+/* Media Queries for Additional Tweaks */
+@media (max-width: 1024px) {
+    .heading {
+        font-size: 30px;
+    }
+
+    .button-style {
+        width: 200px !important;
+        height: 60px !important;
+    }
+}
+
+@media (max-width: 768px) {
+>>>>>>> 508932fbf10a8e101a5e80ca5f0e2afeba5f41f5
+    .heading {
+        font-size: 28px;
+    }
+
+    .button-style {
+        width: 80%;
+        height: 60px;
+    }
+
+    img {
+        width: 80%;
+    }
+}
+
+/* Extra Large Screens (1024px and above) */
+@media (min-width: 1024px) {
+    .heading {
+        font-size: 35px;
+    }
+
+    .button-style {
+        width: 253px !important;
+        height: 67px !important;
+    }
+
+    img {
+        width: 60%;
+    }
+}
+
+@media (max-width: 480px) {
+    .heading {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .button-style {
+        width: 100%;
+        height: 50px !important;
+        font-size: 16px;
+    }
+}

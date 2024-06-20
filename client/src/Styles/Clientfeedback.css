@@ -1,0 +1,141 @@
+/* Base Styles */
+.card-client {
+    border-radius: 30px !important;
+<<<<<<< HEAD
+    width: 100%;
+    max-width: 380px !important;
+    height: 240px !important;
+    box-sizing: border-box;
+  }
+  
+  .google-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Heading Styles */
+  .heading {
+    font-size: 35px;
+  }
+  
+  .font-color {
+    color: #D82C2E !important;
+  }
+  
+  .button-style {
+    background-color: #D82C2E !important;
+    color: white;
+    border-radius: 30px !important;
+    border: none;
+    cursor: pointer;
+    height: 67px !important;
+    width: 253px !important;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Media Queries for Mobile and Tablet Responsiveness */
+  @media (max-width: 640px) {
+    .card-client {
+      width: 90%;
+      margin: 0 auto;
+    }
+  
+    .heading {
+      font-size: 24px;
+    }
+  
+    .font-color {
+      font-size: 16px;
+    }
+  
+    .button-style {
+      font-size: 14px;
+      height: 48px !important;
+      width: 100%;
+    }
+  
+    .google-img {
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 641px) and (max-width: 1024px) {
+    .card-client {
+      max-width: 300px;
+    }
+  
+    .heading {
+      font-size: 28px;
+    }
+  
+    .font-color {
+      font-size: 18px;
+    }
+  
+    .button-style {
+      font-size: 16px;
+      height: 56px !important;
+      width: 80%;
+    }
+  
+    .google-img {
+      width: 70%;
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .card-client {
+      max-width: 380px;
+    }
+  
+    .heading {
+      font-size: 32px;
+    }
+  
+    .font-color {
+      font-size: 20px;
+    }
+  
+    .button-style {
+      font-size: 18px;
+      height: 67px !important;
+      width: 70%;
+    }
+  
+    .google-img {
+      width: 80%;
+    }
+  }
+  
+=======
+    width: 380px !important;
+    height: 240px !important;
+}
+
+/* Media Queries for Additional Tweaks */
+@media (max-width: 1024px) {
+    .card-client {
+        width: 320px !important;
+        height: 200px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-client {
+        width: 280px !important;
+        height: 180px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-client {
+        width: 100% !important;
+        height: auto !important;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+}
+>>>>>>> 508932fbf10a8e101a5e80ca5f0e2afeba5f41f5

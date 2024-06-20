@@ -1,0 +1,32 @@
+.button-footer {
+    height: 45px !important;
+    width: 162px !important;
+    border-radius: 40px;
+    background-color: #B42329;
+}
+<<<<<<< HEAD
+=======
+
+/* Media Queries for Additional Tweaks */
+@media (max-width: 1024px) {
+    .button-footer {
+        width: 140px !important;
+        height: 40px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .button-footer {
+        width: 120px !important;
+        height: 35px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .button-footer {
+        width: 100% !important;
+        height: 40px !important;
+        border-radius: 30px;
+    }
+}
+>>>>>>> 508932fbf10a8e101a5e80ca5f0e2afeba5f41f5

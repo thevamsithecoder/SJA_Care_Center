@@ -1,0 +1,141 @@
+/* Default styles for all screen sizes */
+.heading {
+  font-size: 35px;
+  margin-top: 5px;
+}
+
+.card {
+  height: 400px !important;
+  width: 340px !important;
+  border-radius: 30px;
+  border-width: 1px;
+}
+
+.image-service {
+  height: 195px !important;
+  width: 336px !important;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.button-home {
+  background-color: #b42329;
+  color: white;
+  height: 49px !important;
+  width: 325px !important;
+  border-radius: 30px;
+}
+
+.button {
+  background-color: #b42329;
+  color: white;
+  height: 49px !important;
+  width: 282px !important;
+  border-radius: 30px;
+}
+
+p {
+  font-weight: 600;
+}
+
+.image-square {
+  height: 300px !important;
+  width: 336px !important;
+  border-radius: 30px;
+}
+
+.viewall-button {
+  height: 67px !important;
+  width: 252px !important;
+  border: 2px solid transparent !important;
+  border-radius: 40px !important;
+  background-color: #b42329;
+}
+
+.viewall-hr {
+  position: relative;
+  margin-top: 50px;
+}
+
+.viewall-hr-position {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hr {
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+/* Media queries for responsiveness */
+
+/* For tablets and small laptops (1024px and below) */
+@media (max-width: 1024px) {
+  .card {
+    width: 90%;
+    height: auto;
+  }
+  
+  .button-home, .button {
+    width: 90%;
+  }
+
+  .image-service, .image-square {
+    width: 90%;
+    height: auto;
+  }
+  
+  .heading {
+    font-size: 28px;
+  }
+  
+
+}
+
+/* For mobile phones (768px and below) */
+@media (max-width: 768px) {
+  .card {
+    width: 95%;
+    height: auto;
+  }
+  
+  .button-home, .button {
+    width: 95%;
+  }
+
+  .image-service, .image-square {
+    width: 95%;
+    height: auto;
+  }
+  
+  .heading {
+    font-size: 24px;
+  }
+  
+ 
+}
+
+/* For extra small phones (480px and below) */
+@media (max-width: 480px) {
+  .card {
+    width: 75% !important;
+    height: auto;
+  }
+  
+  .button-home, .button {
+    width: 95% !important;
+  }
+
+  .image-service, .image-square {
+    width: 100%;
+    height: auto;
+  }
+  
+  .heading {
+    font-size: 20px;
+  }
+  
+  
+}

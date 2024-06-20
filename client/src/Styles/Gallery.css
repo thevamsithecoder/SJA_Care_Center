@@ -1,0 +1,72 @@
+.card-gallery {
+    height: 410px !important;
+    width: 325px !important;
+    border-radius: 40px !important;
+}
+
+.arrow-color {
+    color: #B42329;
+}
+
+.button-viewmore {
+    background-color: #B42329;
+    color: white;
+    height: 50px !important;
+    width: 180px !important;
+    border-radius: 40px !important;
+    margin: 20px !important;
+}
+
+/* Media Queries */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .card-gallery {
+        height: 250px !important;
+        width: 200px !important;
+    }
+
+    .button-viewmore {
+        width: 150px !important;
+        height: 40px !important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .card-gallery {
+        height: 300px !important;
+        width: 225px !important;
+    }
+
+    .button-viewmore {
+        width: 160px !important;
+        height: 45px !important;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .card-gallery {
+        height: 350px !important;
+        width: 260px !important;
+    }
+
+    .button-viewmore {
+        width: 170px !important;
+        height: 48px !important;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 993px) {
+    .card-gallery {
+        height: 410px !important;
+        width: 325px !important;
+    }
+
+    .button-viewmore {
+        width: 180px !important;
+        height: 50px !important;
+    }
+}
